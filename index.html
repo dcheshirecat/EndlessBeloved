@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#080b18">
+  <title>Endless, Beloved</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="screen-container"></div>
+  </div>
+
+  <!-- Systems (order matters) -->
+  <script src="js/systems/AppVariant.js"></script>
+  <script src="js/systems/GameState.js"></script>
+  <script src="js/systems/SaveSystem.js"></script>
+  <script src="js/systems/RouteManager.js"></script>
+  <script src="js/systems/StoryLoader.js"></script>
+  <script src="js/systems/DialogueSystem.js"></script>
+  <script src="js/systems/AltarManager.js"></script>
+  <script src="js/systems/SpellSystem.js"></script>
+  <script src="js/systems/SkillSystem.js"></script>
+  <script src="js/systems/GameManager.js"></script>
+
+  <!-- UI screens -->
+  <script src="js/ui/MainMenu.js"></script>
+  <script src="js/ui/NewGame.js"></script>
+  <script src="js/ui/LoadGame.js"></script>
+  <script src="js/ui/RouteSelect.js"></script>
+  <script src="js/ui/Game.js"></script>
+
+  <!-- Boot -->
+  <script src="js/main.js"></script>
+</body>
+</html>
