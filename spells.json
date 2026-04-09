@@ -1,0 +1,64 @@
+{
+  "spells": [
+    {
+      "id": "candle_intention",
+      "displayName": "Candle of Intention",
+      "description": "Light a candle and set your intention for what you seek.",
+      "tradition": "candle",
+      "element": "Fire",
+      "moonPhase": "new",
+      "ingredients": ["candle", "matches"],
+      "altarEffect": "candle_glow",
+      "storyEffect": "",
+      "affectsEnding": false
+    },
+    {
+      "id": "sigil_binding",
+      "displayName": "Binding Sigil",
+      "description": "Draw a sigil to bind a promise between you and the Beloved.",
+      "tradition": "sigil",
+      "element": "Spirit",
+      "moonPhase": "full",
+      "ingredients": ["ink", "parchment", "candle"],
+      "altarEffect": "sigil_glow",
+      "storyEffect": "oracle_hidden_scene_01",
+      "affectsEnding": true
+    },
+    {
+      "id": "tarot_reveal",
+      "displayName": "The Revealing Spread",
+      "description": "Lay three cards to illuminate what is hidden between you.",
+      "tradition": "tarot",
+      "element": "Spirit",
+      "moonPhase": "waxing",
+      "ingredients": ["tarot_deck"],
+      "altarEffect": "card_shimmer",
+      "storyEffect": "",
+      "affectsEnding": false
+    },
+    {
+      "id": "herb_protection",
+      "displayName": "Circle of Protection",
+      "description": "Burn protective herbs to ward the space before speaking truths.",
+      "tradition": "herb",
+      "element": "Earth",
+      "moonPhase": "waning",
+      "ingredients": ["sage", "candle"],
+      "altarEffect": "smoke_wisp",
+      "storyEffect": "",
+      "affectsEnding": false
+    },
+    {
+      "id": "shadow_descent",
+      "displayName": "Shadow Descent",
+      "description": "A ritual of shadow work — face what you have buried.",
+      "tradition": "shadow",
+      "element": "Water",
+      "moonPhase": "new",
+      "ingredients": ["black_candle", "mirror", "ink"],
+      "altarEffect": "shadow_pulse",
+      "storyEffect": "keeper_shadow_unlock",
+      "affectsEnding": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "id": "grounding_54321",
+      "displayName": "The 5-4-3-2-1 Method",
+      "category": "Grounding",
+      "shortDescription": "A sensory technique to anchor yourself to the present moment.",
+      "fullDescription": "The 5-4-3-2-1 method uses your five senses to interrupt dissociation, flashbacks, or anxiety spirals by redirecting attention to what is real and immediate.",
+      "howToUse": "Name 5 things you can see, 4 you can touch and feel, 3 you can hear, 2 you can smell, and 1 you can taste. Slow down between each one.",
+      "unlockCondition": "Unlocked the first time you felt overwhelmed at the altar.",
+      "achievementTitle": "Anchored",
+      "achievementIcon": "skill_grounding",
+      "relatedSkillIds": ["grounding_bodyscan"]
+    },
+    {
+      "id": "grounding_bodyscan",
+      "displayName": "Body Scan",
+      "category": "Grounding",
+      "shortDescription": "Reconnect with your body by scanning it from head to toe.",
+      "fullDescription": "A body scan brings your awareness through your physical self, noticing sensations without judgment. It helps reduce dissociation and creates a gentle bridge back to the present.",
+      "howToUse": "Sit or lie down. Starting at the top of your head, slowly move your attention downward. Notice any tension, warmth, tingling, or numbness. Breathe into each area without trying to change it.",
+      "unlockCondition": "Unlocked after returning from the loop for the first time.",
+      "achievementTitle": "Coming Home",
+      "achievementIcon": "skill_bodyscan",
+      "relatedSkillIds": ["grounding_54321"]
+    },
+    {
+      "id": "cbt_thoughtrecord",
+      "displayName": "Thought Record",
+      "category": "CBT",
+      "shortDescription": "Challenge unhelpful thoughts by examining the evidence.",
+      "fullDescription": "A thought record helps you identify automatic negative thoughts, examine the evidence for and against them, and find a more balanced perspective. It interrupts the cycle of cognitive distortions.",
+      "howToUse": "Write down: the situation, your automatic thought, the emotion and its intensity, evidence that supports the thought, evidence against it, and a balanced alternative. Notice how the emotion shifts.",
+      "unlockCondition": "Unlocked after a difficult conversation with The Keeper.",
+      "achievementTitle": "Witness to Your Own Mind",
+      "achievementIcon": "skill_thought",
+      "relatedSkillIds": ["cbt_cognitiveRestructuring"]
+    },
+    {
+      "id": "dbt_dearman",
+      "displayName": "DEAR MAN",
+      "category": "DBT",
+      "shortDescription": "An assertiveness skill for asking for what you need.",
+      "fullDescription": "DEAR MAN is a DBT interpersonal effectiveness skill for getting your needs met while maintaining the relationship. It stands for Describe, Express, Assert, Reinforce, stay Mindful, Appear confident, Negotiate.",
+      "howToUse": "Before a difficult conversation, plan each step. Describe the situation factually. Express how you feel using 'I' statements. Assert what you want clearly. Explain what reinforces both of you. Stay focused on your goal. Act confident even if you don't feel it. Be willing to negotiate.",
+      "unlockCondition": "Unlocked after standing your ground with The Oracle.",
+      "achievementTitle": "Advocate for Yourself",
+      "achievementIcon": "skill_dbt",
+      "relatedSkillIds": ["dbt_give", "dbt_fast"]
+    },
+    {
+      "id": "dbt_tipp",
+      "displayName": "TIPP Skills",
+      "category": "DBT",
+      "shortDescription": "Rapidly reduce emotional intensity through the body.",
+      "fullDescription": "TIPP targets the biology of emotion. Temperature, Intense exercise, Paced breathing, and Paired muscle relaxation can bring you out of emotional crisis faster than cognitive techniques alone.",
+      "howToUse": "Temperature: hold ice or splash cold water on your face. Intense exercise: move your body for 20 minutes. Paced breathing: breathe in for 4, hold for 2, out for 6. Paired relaxation: tense each muscle group, then release.",
+      "unlockCondition": "Unlocked after a moment of crisis in The Wanderer's route.",
+      "achievementTitle": "Through the Body",
+      "achievementIcon": "skill_tipp",
+      "relatedSkillIds": ["grounding_54321"]
+    }
+  ]
+}

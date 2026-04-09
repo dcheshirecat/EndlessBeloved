@@ -1,0 +1,100 @@
+{
+  "characters": [
+    {
+      "id": "oracle",
+      "displayName": "The Oracle",
+      "tarotCard": "The High Priestess",
+      "element": "Water",
+      "theme": "Foresight and fate",
+      "routeStartNodeId": "oracle_ch01_start",
+      "totalChapters": 5,
+      "unlockedByDefault": true,
+      "portraitKeys": [
+        "oracle_neutral",
+        "oracle_mysterious",
+        "oracle_sad",
+        "oracle_warm"
+      ]
+    },
+    {
+      "id": "angel",
+      "displayName": "The Angel",
+      "tarotCard": "Judgement",
+      "element": "Air",
+      "theme": "Grace and ruin",
+      "routeStartNodeId": "angel_ch01_start",
+      "totalChapters": 5,
+      "unlockedByDefault": true,
+      "portraitKeys": [
+        "angel_neutral",
+        "angel_radiant",
+        "angel_fallen",
+        "angel_tender"
+      ]
+    },
+    {
+      "id": "keeper",
+      "displayName": "The Keeper",
+      "tarotCard": "The Hermit",
+      "element": "Earth",
+      "theme": "Memory and loss",
+      "routeStartNodeId": "keeper_ch01_start",
+      "totalChapters": 5,
+      "unlockedByDefault": true,
+      "portraitKeys": [
+        "keeper_neutral",
+        "keeper_wistful",
+        "keeper_grief",
+        "keeper_gentle"
+      ]
+    },
+    {
+      "id": "wanderer",
+      "displayName": "The Wanderer",
+      "tarotCard": "The Fool",
+      "element": "Air",
+      "theme": "Freedom and longing",
+      "routeStartNodeId": "wanderer_ch01_start",
+      "totalChapters": 5,
+      "unlockedByDefault": false,
+      "portraitKeys": [
+        "wanderer_neutral",
+        "wanderer_joyful",
+        "wanderer_longing",
+        "wanderer_fierce"
+      ]
+    },
+    {
+      "id": "apprentice",
+      "displayName": "The Apprentice",
+      "tarotCard": "The Magician",
+      "element": "Fire",
+      "theme": "Power and becoming",
+      "routeStartNodeId": "apprentice_ch01_start",
+      "totalChapters": 5,
+      "unlockedByDefault": false,
+      "portraitKeys": [
+        "apprentice_neutral",
+        "apprentice_eager",
+        "apprentice_intense",
+        "apprentice_vulnerable"
+      ]
+    },
+    {
+      "id": "weaver",
+      "displayName": "The Weaver",
+      "tarotCard": "The World",
+      "element": "Spirit",
+      "theme": "Threads and endings",
+      "routeStartNodeId": "weaver_ch01_start",
+      "totalChapters": 5,
+      "unlockedByDefault": false,
+      "portraitKeys": [
+        "weaver_neutral",
+        "weaver_knowing",
+        "weaver_sorrowful",
+        "weaver_transcendent"
+      ]
+    }
+  ]
+}
